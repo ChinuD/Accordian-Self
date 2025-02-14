@@ -1,0 +1,14 @@
+.container{
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 20px;
+}
+
+.eachCard{
+    height: 350px;
+    width: 500px;
+    border: 1px solid black;
+    width: 280px;
+    text-align: center;
+}

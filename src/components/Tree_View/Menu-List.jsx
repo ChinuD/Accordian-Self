@@ -1,5 +1,6 @@
 import { useState } from "react"
 import MenuItem from "./Menu-Item"
+import './styles.css'
 
 export default function MenuList({list=[]}){
 

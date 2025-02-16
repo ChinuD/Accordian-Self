@@ -1,4 +1,5 @@
 import MenuList from "./Menu-List"
+import './styles.css'
 
 export default function TreeView({menus=[]}){
 

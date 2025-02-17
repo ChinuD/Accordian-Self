@@ -8,6 +8,7 @@ import Image_Slider from './components/Image-Slider/Image_Slider'
 import Load_More_Btn from './components/load-more-button/Load_More_Btn'
 import TreeView from './components/Tree_View'
 import QrCodeGenerator from './components/QR_Code Generator'
+import LightDarkMode from './components/Light_Dark Mode/LightDarkMode'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,7 +21,8 @@ function App() {
       {/* <Image_Slider url={'https://picsum.photos/v2/list?page=1&limit=10'}  /> */}
       {/* <Load_More_Btn/> */}
       {/* <TreeView menus={menus}/> */}
-      <QrCodeGenerator/>
+      {/* <QrCodeGenerator/> */}
+      <LightDarkMode/>
 
     </div >
   )

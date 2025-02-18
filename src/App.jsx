@@ -9,6 +9,7 @@ import Load_More_Btn from './components/load-more-button/Load_More_Btn'
 import TreeView from './components/Tree_View'
 import QrCodeGenerator from './components/QR_Code Generator'
 import LightDarkMode from './components/Light_Dark Mode/LightDarkMode'
+import CustomScrollIndicator from './components/Custom Scroll Indicator/CustomScrollIndicator'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,7 +23,7 @@ function App() {
       {/* <Load_More_Btn/> */}
       {/* <TreeView menus={menus}/> */}
       {/* <QrCodeGenerator/> */}
-      <LightDarkMode/>
+      <CustomScrollIndicator url={"https://dummyjson.com/products?limit=100"}/>
 
     </div >
   )

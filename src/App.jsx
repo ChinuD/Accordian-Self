@@ -11,6 +11,8 @@ import QrCodeGenerator from './components/QR_Code Generator'
 import LightDarkMode from './components/Light_Dark Mode/LightDarkMode'
 import CustomScrollIndicator from './components/Custom Scroll Indicator/CustomScrollIndicator'
 import TabTest from './components/Tabs/Tab-Test'
+import ModalTest from './components/Custom Modal Popup/modal-text'
+import Modal from './components/Custom Modal Popup/modal'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -25,7 +27,8 @@ function App() {
       {/* <TreeView menus={menus}/> */}
       {/* <QrCodeGenerator/> */}
       {/* <CustomScrollIndicator url={"https://dummyjson.com/products?limit=100"}/> */}
-      <TabTest/>
+      {/* <TabTest/> */}
+      <ModalTest/>
 
     </div >
   )

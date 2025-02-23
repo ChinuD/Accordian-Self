@@ -13,6 +13,8 @@ import CustomScrollIndicator from './components/Custom Scroll Indicator/CustomSc
 import TabTest from './components/Tabs/Tab-Test'
 import ModalTest from './components/Custom Modal Popup/modal-text'
 import Modal from './components/Custom Modal Popup/modal'
+import UseFetchHookTest from "./components/OnFetch/test";
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -28,7 +30,8 @@ function App() {
       {/* <QrCodeGenerator/> */}
       {/* <CustomScrollIndicator url={"https://dummyjson.com/products?limit=100"}/> */}
       {/* <TabTest/> */}
-      <ModalTest/>
+      {/* <ModalTest/> */}
+      <UseFetchHookTest/>
 
     </div >
   )

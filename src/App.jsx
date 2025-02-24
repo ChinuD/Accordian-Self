@@ -14,13 +14,15 @@ import TabTest from './components/Tabs/Tab-Test'
 import ModalTest from './components/Custom Modal Popup/modal-text'
 import Modal from './components/Custom Modal Popup/modal'
 import UseFetchHookTest from "./components/OnFetch/test";
+import ScrollToSection from './components/Scroll-To-Section/Scroll-To-Section'
+import ScrollToTopAndBottom from './components/Scroll-To-Section'
 
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className='h-screen flex flex-col justify-center items-center'>
+    <div className=' flex flex-col justify-center items-center'>
       {/* <Accordian/> */}
       {/* <RandomColorGenerator/> */}
       {/* <Star_Component/> */}
@@ -31,8 +33,9 @@ function App() {
       {/* <CustomScrollIndicator url={"https://dummyjson.com/products?limit=100"}/> */}
       {/* <TabTest/> */}
       {/* <ModalTest/> */}
-      <UseFetchHookTest/>
-
+      {/* <UseFetchHookTest/> */}
+      <ScrollToSection/>
+      {/* <ScrollToTopAndBottom/> */}
     </div >
   )
 }
